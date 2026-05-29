@@ -10,23 +10,24 @@ analytics-ready format, and loads it into Google BigQuery.
 * Multi-city supportLets us demonstrate parameterisation and batch fetching
 
 ## Decisions Made and What I'd Revisit
-*
-*dff
 
-Chose WRITE_APPEND over WRITE_TRUNCATE:
+* Chose WRITE_APPEND over WRITE_TRUNCATE:
 Simple and safe. The tradeoff is duplicates on re-runs.
 With more time, I'd add an incremental load pattern using a watermark table.
 
-Chose load jobs over streaming inserts:
+* Chose load jobs over streaming inserts:
 Streaming inserts aren't available in the BigQuery Sandbox, but load jobs are.
 In production on a billed project, streaming inserts would give near-real-time latency.
-Single-threaded city fetching:
+
+* Single-threaded city fetching:
 Deliberate for simplicity and readability. With 5 cities it's fast enough.
 First thing I'd parallelise at scale.
-Geocoding on every run:
+
+* Geocoding on every run:
 Lat/lon for a city doesn't change. A real production pipeline would cache this
 in a small reference table and skip geocoding for known cities.
-No unit tests in this submission:
+
+* No unit tests in this submission:
 Given the 4-day constraint, I prioritised working, documented code over test coverage.
 In a real codebase, fetcher.py and transformer.py are both pure-function-ish and
 straightforward to test with pytest and unittest.mock for the API calls.
