@@ -11,6 +11,8 @@ analytics-ready format, and loads it into Google BigQuery.
 
 ## Pipeline Explained
 
+![image_alt]()
+
 
 ## Decisions Made and What I'd Revisit
 
