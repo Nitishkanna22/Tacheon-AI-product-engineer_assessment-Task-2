@@ -15,7 +15,7 @@ analytics-ready format, and loads it into Google BigQuery.
 
 ## Project Structure 
 
-![image_alt]()
+![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment-Task-2/blob/5a4ae1aa2b251ae184dc0ac5ba4b96e034a7bd95/Project%20Structure.png)
 
 
 ## Decisions Made and What I'd Revisit
