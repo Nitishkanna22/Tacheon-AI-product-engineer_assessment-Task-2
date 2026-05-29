@@ -36,7 +36,7 @@ HOURLY_VARIABLES = [
 
 # ── BigQuery ──────────────────────────────────────────────────────────────────
 # Replace with your actual GCP project ID (found in BigQuery console top-left).
-BIGQUERY_PROJECT_ID = "your-gcp-project-id"   # ← CHANGE THIS
+BIGQUERY_PROJECT_ID = "your-gcp-project-id"   
 BIGQUERY_DATASET_ID = "weather_pipeline"
 BIGQUERY_TABLE_ID   = "hourly_observations"
 
