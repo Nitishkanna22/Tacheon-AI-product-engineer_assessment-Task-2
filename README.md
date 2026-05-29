@@ -9,6 +9,9 @@ analytics-ready format, and loads it into Google BigQuery.
 * Reliable SLA for a free APINot likely to be down during assessment review
 * Multi-city supportLets us demonstrate parameterisation and batch fetching
 
+## Pipeline Explained
+
+
 ## Decisions Made and What I'd Revisit
 
 * Chose WRITE_APPEND over WRITE_TRUNCATE:
