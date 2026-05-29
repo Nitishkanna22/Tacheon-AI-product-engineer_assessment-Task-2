@@ -23,6 +23,8 @@ analytics-ready format, and loads it into Google BigQuery.
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment-Task-2/blob/462a854be3add1b05510aa38e13b84fa120a5a9b/Output%20Screenshot%202.png)
 
+![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment-Task-2/blob/f5720d607b2bd271eca8d76feb5b3d587bc2d741/Screenshot%20Visualization.png)
+
 
 ## Decisions Made and What I'd Revisit
 
