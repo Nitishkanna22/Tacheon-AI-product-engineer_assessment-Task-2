@@ -13,6 +13,10 @@ analytics-ready format, and loads it into Google BigQuery.
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment-Task-2/blob/ce47f5fe64fb7b6b474474ff6255e22a32fc9c45/Pipeline%20Explained.png)
 
+## Project Structure 
+
+![image_alt]()
+
 
 ## Decisions Made and What I'd Revisit
 
